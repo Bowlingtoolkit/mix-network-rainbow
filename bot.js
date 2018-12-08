@@ -4,6 +4,6 @@ client.on("ready", () => {
     function rainbow() {
       client.guilds.get('520246668508135424').roles.find("name", "Rainbow🌈").setColor("RANDOM");
     }
-    setInterval(rainbow, 10000);//rainbow delay time (ms)
+    setInterval(rainbow, 6000);//rainbow delay time (ms)
   })
   client.login(process.env.BOT_TOKEN)
